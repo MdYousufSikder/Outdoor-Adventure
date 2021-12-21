@@ -1,0 +1,360 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*******************
+	 Global css
+*********************/
+
+.container{
+	width: 1140px;
+	margin : 0px auto;
+}
+a{
+	text-decoration: none;
+}
+/*******************
+	 Header
+*********************/
+
+header{
+	width: 100%;
+	padding: 15px 0px;
+	position: absolute;
+}
+
+.navbar{
+	display: flex;
+	justify-content: space-between;
+}
+.menu ul{
+	display: inline-block;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+}
+.menu ul li a{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+    font-weight: bold;
+    margin-right: 24px;
+    font-size: 18px;
+}
+.menu-btn{
+	padding: 16px 48px;
+	font-family: 'Roboto', sans-serif;
+    border: 2px solid white;
+    border-radius: 35px;
+    color: white;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.menu-btn:hover{
+	background-color: #fb2056;
+	border: none;
+}
+.logo{
+	width: auto;
+}
+
+
+
+/*******************
+	benner Section(2nd)
+*********************/
+
+.banner{
+	width: 100%;
+	background-image: url(../img/bg.jpg);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.3);
+	background-blend-mode: color;
+}
+.banner-content{
+	text-align: center;
+}
+.banner-content h2{
+	font-family: 'Playfair Display', serif;
+	font-size: 32px;
+    color: white;
+    font-style: italic;
+}
+.line{
+	font-family: 'Roboto', sans-serif;
+	width: 80px;
+    height: 2px;
+    background-color: #fb2056;
+    margin: 10px auto
+}
+.banner-content h1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 66px;
+	color: white;
+	letter-spacing: 1px;
+}
+.banner-content button{
+	font-family: 'Roboto', sans-serif;
+	padding: 16px 48px;
+    border: none;
+    border-radius: 35px;
+    color: white;
+    background-color: #fb2056;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.banner-content button:hover{
+	background-color: #28afea;
+}
+.banner-content{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/*******************
+	testimonial Section(3rd)
+*********************/
+
+
+.testimonial{
+	width: 100%;
+	background-color: #f4f5f9;
+	padding: 80px 0px;
+}
+.testimonial .item{
+	text-align: center;
+}
+.testimonial .item p{
+	font-family: 'Playfair Display', serif;
+	font-size: 22px;
+	font-style: italic;
+	color: #212121;
+	margin-bottom: 16px;
+}
+.testimonial .item h6{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: grey;
+}
+.events-content h2{
+	font-family: 'Roboto', sans-serif;
+	font-size: 48px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 16px;
+}
+.events-gallery{
+	margin-top: 40px;
+	display: grid;
+	grid-template-columns: auto auto;
+
+}
+.event-post{
+	text-align: center;
+}
+.event-post img{
+	width: 80%;
+	border-radius: 6px;
+}
+.event-post h4{
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	color: #353535;
+	font-weight: bold;
+	margin: 40px 0px 30px 0px;
+}
+.event-post p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #353535;
+	margin-bottom: 20px;
+	font-weight: 400px;
+}
+.event-post a{
+	font-size: 14px;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	color: #fb2056;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.mainbox{
+	position: relative;
+}
+.mainbox img{
+	z-index: 9999;
+}
+.box{
+	position: absolute;
+	height: 100%;
+	width: 80%;
+	background-color: #f6f6f6;
+	top: 13px;
+    left: 70px;
+    border-radius: 6px;
+    z-index: -1;
+}
+
+
+/*******************
+	explore Section(4rd)
+*********************/
+
+
+
+
+.explore{
+	width: 100%;
+	background-image: url(../img/bgoverlay.jpg);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.3);
+	background-blend-mode: color;
+	padding-bottom: 50px;
+}
+.exploring{
+	display: flex;
+	margin-top: 100px;
+}
+.ex-1, .ex-2{
+	flex-basis: 50%;
+}
+.ex-2 h2{
+	font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    text-align: left;
+    color: white;
+}
+.ex-2 p{
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #353535;
+    margin-bottom: 60px;
+    color: white;
+}
+.line-1{
+	font-family: 'Roboto', sans-serif;
+    width: 80px;
+    height: 3px;
+    background-color: #fb2056;
+    margin: 25px 0px 40px 0px;
+}
+.ex-2 a{
+	font-size: 14px;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.ex-2{
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	margin-top: 250px;
+}
+
+
+
+/*******************
+	testimonial Section(5th)
+*********************/
+
+
+.explore{
+	width: 100%;
+	margin: 15px 0px;
+}
+
+.up-all{
+	display: flex;
+	margin-top: 120px;
+}
+.up-left{
+	flex-basis: 35%;
+}
+.up-right{
+	flex-basis: 50%;
+	margin-bottom: 125px;
+}
+.item:hover{
+	transform: translateY(-20px);
+	transition: 0.5s;
+}
+
+.up-left h2{
+	font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    text-align: left;
+    color: black;
+}
+.up-left p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	color: #353535;
+	margin-bottom: 20px;
+	font-weight: 400px;
+	line-height: 25px;
+	padding-bottom: 20px;
+}
+.up-left a{
+	font-size: 14px;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	color: #fb2056;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.up-right .up-img{
+	margin: 0 auto;
+}
+.up-right{
+	display: grid;
+	grid-template-columns: auto auto;
+}
+.up-img img{
+	margin: 10px;
+	border-radius: 4px;
+}
+
+
+
+/*******************
+	footer Section(6th)
+*********************/
+
+
+footer{
+	width: 100%;
+	text-align: center;
+	background-color: #191919;
+	padding: 68px 0px;
+}
+footer p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 300px;
+	color: white;
+	margin-bottom: 10px;
+	padding-top: 10px;
+}
